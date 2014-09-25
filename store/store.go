@@ -1,10 +1,10 @@
 package store
 
 import (
-	"coffe-shop/barista"
-	"coffe-shop/customer"
 	"errors"
 	"fmt"
+	"github.com/tixu/coffe-shop/barista"
+	"github.com/tixu/coffe-shop/customer"
 	"time"
 )
 

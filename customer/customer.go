@@ -1,9 +1,9 @@
 package customer
 
 import (
-	"coffe-shop/barista"
-	"coffe-shop/order"
 	"fmt"
+	"github.com/tixu/coffe-shop/barista"
+	"github.com/tixu/coffe-shop/order"
 	"math/rand"
 )
 

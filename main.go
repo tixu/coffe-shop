@@ -1,10 +1,10 @@
 package main
 
 import (
-	"coffe-shop/barista"
-	"coffe-shop/customer"
-	"coffe-shop/store"
 	"fmt"
+	"github.com/tixu/coffe-shop/barista"
+	"github.com/tixu/coffe-shop/customer"
+	"github.com/tixu/coffe-shop/store"
 	"time"
 )
 
