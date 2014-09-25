@@ -1,8 +1,8 @@
 package barista
 
 import (
-	"coffe-shop/order"
 	"fmt"
+	"github.com/tixu/coffe-shop/order"
 	"math/rand"
 	"time"
 )
