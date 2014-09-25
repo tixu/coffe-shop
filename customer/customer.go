@@ -5,6 +5,7 @@ import (
 	"github.com/tixu/coffe-shop/barista"
 	"github.com/tixu/coffe-shop/order"
 	"math/rand"
+	"time"
 )
 
 var r = rand.New(rand.NewSource(99))
@@ -22,7 +23,8 @@ type customer struct {
 
 func (c *customer) PlaceOrder() (customerOrder order.Order, thanks string) {
 	i := r.Intn(2)
-	customerOrder = order.New(order.Coffees[i], 2)
+	t := r.Intn(5)
+	customerOrder = order.New(order.Coffees[i], time.Duration(t)*time.Second)
 	return customerOrder, fmt.Sprintf("Customer %d orders %s ", c.id, customerOrder)
 
 }
